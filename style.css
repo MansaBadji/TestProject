@@ -1,0 +1,172 @@
+body {
+  margin: 0px;
+  background-color: whitesmoke;
+  font-family: sans-serif;
+}
+body header {
+  background-color: rgb(26, 23, 23);
+  color: whitesmoke;
+  margin: 0px;
+  padding: 15px;
+  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body header .contact {
+  display: flex;
+  flex-direction: row;
+}
+body header .contact div {
+  margin-right: 5px;
+}
+body header .contact .fa-solid {
+  font-size: 17px;
+  color: #fcac04;
+  margin: 5px;
+}
+body header .socialMedia {
+  display: flex;
+  flex-direction: row;
+}
+body header .fa-brands {
+  font-size: 20px;
+  margin: 5px;
+}
+body main .navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: whitesmoke;
+  /*
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  */
+}
+body main .navBar .navBarNav a {
+  font-size: 1.3em;
+  color: rgb(26, 23, 23);
+  text-decoration: none;
+  display: inline-block;
+  padding: 30px 10px 30px 10px;
+  letter-spacing: 0.3px;
+}
+body main .navBar .navBarNav a:hover {
+  color: #fcac04;
+  border-bottom: 2px solid #fcac04;
+}
+body main .btnElemantary {
+  font-size: 1em;
+  color: rgb(252, 244, 244);
+  padding: 15px 30px 15px 30px;
+  background-color: #fcac04;
+  border: none;
+  border-radius: 30px;
+}
+body main .btnElemantary:hover {
+  background-color: blueviolet;
+}
+body main .sectionHeader {
+  width: 100%;
+  height: 700px;
+  background-image: url("image/beach.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-size: 100%;
+}
+body main .desti .destiHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 40px 5px 40px;
+  align-content: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+body main .desti .destiCity {
+  display: grid;
+  grid-template-columns: 450px 450px 450px;
+  grid-template-rows: 320px 320px;
+  gap: 20px;
+  padding: 20px;
+}
+body main .desti .destiCity img {
+  width: 450px;
+  height: 280px;
+  border-radius: 10px;
+}
+body main .desti .destiCity p {
+  font-size: 1.2em;
+}
+body main .desti .destiCity .price {
+  color: #fcac04;
+}
+body main .desti .destiCity .cityBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body main .services {
+  background-color: rgb(224, 224, 221);
+  margin-top: 60px;
+  padding: 0px 30px 100px 30px;
+}
+body main .services h2 {
+  width: 200px;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+body main .services .servicesDetails {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+body main .services .servicesDetails .ourServices {
+  padding: 40px 20px 20px 20px;
+  border: 1px solid rgb(125, 124, 124);
+  border-radius: 10px;
+}
+body main .services .servicesDetails .fa-solid {
+  font-size: 40px;
+  margin: 5px;
+  color: #fcac04;
+}
+body main .services .servicesDetails .servicesTitle {
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+body main .services .servicesDetails .servicesDesc {
+  color: rgb(125, 124, 124);
+  padding-top: 30px;
+  padding-bottom: 50px;
+  border-top: 1px solid rgb(125, 124, 124);
+}
+body footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 60px;
+  padding: 20px;
+  background-color: rgb(21, 21, 21);
+}
+body footer img,
+body footer p,
+body footer .socialMedia {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+body footer p {
+  color: rgb(150, 149, 149);
+}
+body footer .fa-brands {
+  font-size: 35px;
+  margin: 5px;
+  color: antiquewhite;
+}/*# sourceMappingURL=style.css.map */

@@ -1,1 +1,206 @@
 $colorPrimary: #fcac04;
+$textColor: rgb(26, 23, 23);
+
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+    font-family:sans-serif;
+
+    header {
+        background-color: $textColor;
+        color: whitesmoke;
+        margin: 0px;
+        padding: 15px;
+        font-size: 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .contact {
+            display: flex;
+            flex-direction: row;
+            
+            div {
+                margin-right: 5px;
+            }
+
+            .fa-solid {
+                font-size: 17px;
+                color: $colorPrimary;
+                margin: 5px;
+            }
+        }
+
+        .socialMedia {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .fa-brands {
+            font-size: 20px;
+            margin: 5px;
+        }
+    }
+
+    main {
+        .navBar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: whitesmoke;
+            /*
+            position: fixed;
+            top: 0;
+            z-index: 1;
+            width: 100%;
+            */
+            .navBarNav {
+                a {
+                    font-size: 1.3em;
+                    color: $textColor;
+                    text-decoration: none;
+                    display: inline-block;
+                    padding: 30px 10px 30px 10px;
+                    letter-spacing: .3px;
+                }
+                a:hover {
+                    color: $colorPrimary;
+                    border-bottom: 2px solid $colorPrimary;
+                }
+            }
+        }
+        
+        .btnElemantary {
+            font-size: 1em;
+            color: rgb(252, 244, 244);
+            padding: 15px 30px 15px 30px;
+            background-color: $colorPrimary;
+            border: none;
+            border-radius: 30px;
+        }
+        .btnElemantary:hover {
+            background-color: blueviolet;
+        }
+
+        .sectionHeader {
+            width: 100%;
+            height: 700px;
+            background-image: url("image/beach.jpg");
+            background-attachment:scroll;
+            background-position: center;
+            background-size: 100%;
+        }
+
+        .desti {
+            .destiHeader {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 5px 40px 5px 40px;
+                align-content: center;
+                margin-top: 70px;
+                margin-bottom: 50px;
+            }
+            .destiCity {
+                display: grid;
+                grid-template-columns: 450px 450px 450px;
+                grid-template-rows: 320px 320px;
+                gap: 20px;
+                padding: 20px;
+                
+                img {
+                    width: 450px;
+                    height: 280px;
+                    border-radius: 10px;
+                }
+
+                p {
+                    font-size: 1.2em;
+                }
+
+                .price {
+                    color: $colorPrimary;
+                }
+                
+                .cityBox {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+            }
+        }
+
+        .services {
+            background-color: rgb(224, 224, 221);
+            margin-top: 60px;
+            padding: 0px 30px 100px 30px;
+
+            h2 {
+                width: 200px;
+                margin: auto;
+                padding-top: 100px;
+                padding-bottom: 60px;
+            }
+
+            .servicesDetails {
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+
+                .ourServices {
+                    padding: 40px 20px 20px 20px;
+                    border: 1px solid rgb(125, 124, 124);
+                    border-radius: 10px;
+                }
+                
+                .fa-solid {
+                    font-size: 40px;
+                    margin: 5px;
+                    color: $colorPrimary;
+                }
+
+                .servicesTitle {
+                    font-size: 1.3em;
+                    margin-bottom: 30px;
+                }
+
+                .servicesDesc {
+                    color: rgb(125, 124, 124);
+                    padding-top: 30px;
+                    padding-bottom: 50px;
+                    border-top: 1px solid rgb(125, 124, 124);
+                }
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        margin-top: 60px;
+        padding: 20px;
+        background-color: rgb(21, 21, 21);
+
+        img,
+        p,
+        .socialMedia {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        p {
+            color: rgb(150, 149, 149);
+        }
+
+        .fa-brands {
+            font-size: 35px;
+            margin: 5px;
+            color: antiquewhite;
+        }
+    }
+}
